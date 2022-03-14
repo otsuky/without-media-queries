@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lint:style": "npx stylelint '**/*.css'"
+    "lint:style": "npx stylelint '**/*.css'",
+    "lint:js": "eslint src"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -29,7 +30,7 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
