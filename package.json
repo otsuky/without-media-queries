@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lint:style": "npx stylelint '**/*.css'",
+    "lint:style": "stylelint --cache \"**/*.{css,scss}\"",
     "lint:js": "eslint src"
   },
   "dependencies": {
@@ -31,10 +31,12 @@
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-storybook": "^0.5.7",
     "prettier": "^2.5.1",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
