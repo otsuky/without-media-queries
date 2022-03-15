@@ -1,6 +1,6 @@
 .root {
-  flex-wrap: wrap;
   display: flex;
+  flex-wrap: wrap;
   padding: 16px;
   background: gray;
 }
